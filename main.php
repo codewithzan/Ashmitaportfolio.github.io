@@ -32,3 +32,38 @@ if($_FILES["file"]["name"]!= ""){
     "Content-Transfer-Encoding: 7bit\n\n" .
     $email_message .= "\n\n";
  
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+ 
+
+if(mail($toemail, $subject, $email_message, $headers)){
+
+   $statusMsg= "Email send successfully with attachment";
+
+}else{
+
+   $statusMsg= "Not sent";
+
+}
+
+}
+
+   ?>
